@@ -1,5 +1,7 @@
 package com.example.thecheck;
 
+import java.util.ArrayList;
+
 public class LectureItem {
     private int lectureId;
     private int numClass;

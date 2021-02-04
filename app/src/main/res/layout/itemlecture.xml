@@ -24,12 +24,26 @@
             android:text="강의시간" />
     </LinearLayout>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_classView"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <CheckBox
-        android:id="@+id/hadclass"
+        android:id="@+id/ch_lecture"
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="80px"
         android:textSize="30px"
-        android:text="1강" />
+        android:text="오늘의 강의" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:visibility="gone"
+        android:layout_marginLeft="165dp"
+        android:text="자세히"
+        android:id="@+id/bt_lecture"/>
 
 </LinearLayout>

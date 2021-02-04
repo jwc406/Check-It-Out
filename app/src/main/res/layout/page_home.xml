@@ -2,13 +2,27 @@
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/page_home"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_lectureView"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginHorizontal="100px"
-        android:layout_marginVertical="50px" />
+        android:orientation="vertical">
+        <Button
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:text="추가"
+            android:textColor="@color/white"
+            android:layout_marginLeft="950px"
+            android:id="@+id/bt_add"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_lectureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginVertical="50px" />
+    </LinearLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>

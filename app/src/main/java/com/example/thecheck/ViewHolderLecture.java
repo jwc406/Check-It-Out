@@ -9,12 +9,14 @@ import android.widget.CheckBox;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+import android.widget.Button;
 
 public class ViewHolderLecture extends  RecyclerView.ViewHolder {
 
     TextView tv_lecturename,tv_lecturetime;
     LinearLayout linearlayout;
-    CheckBox ch_class;
+    CheckBox ch_lecture;
+    Button bt_lecture;
 
     OnViewHolderItemClickListener onViewHolderItemClickListener;
 
@@ -24,7 +26,9 @@ public class ViewHolderLecture extends  RecyclerView.ViewHolder {
 
         tv_lecturename = itemView.findViewById(R.id.lectureName);
         tv_lecturetime = itemView.findViewById(R.id.lectureTime);
-        ch_class = itemView.findViewById(R.id.hadclass);
+        ch_lecture = itemView.findViewById(R.id.ch_lecture);
+        bt_lecture = itemView.findViewById(R.id.bt_lecture);
+
         linearlayout = itemView.findViewById(R.id.lectureLinearLayout);
 
         linearlayout.setOnClickListener(new View.OnClickListener() {
@@ -49,7 +53,8 @@ public class ViewHolderLecture extends  RecyclerView.ViewHolder {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 // classView가 실제로 사라지게하는 부분
-                ch_class.setVisibility(isExpanded ? View.VISIBLE : View.GONE);
+                ch_lecture.setVisibility(isExpanded ? View.VISIBLE : View.GONE);
+                bt_lecture.setVisibility(isExpanded ? View.VISIBLE : View.GONE);
             }
         });
         // Animation start
