@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheCheck" >
         <activity android:name=".HomeActivity">
+        </activity>
     </application>
 
 </manifest>
