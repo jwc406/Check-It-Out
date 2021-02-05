@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "45",
+                        "endOffsets": "58"
+                    },
+                    "to": {
+                        "startLines": "694",
+                        "startColumns": "4",
+                        "startOffsets": "44266",
+                        "endColumns": "45",
+                        "endOffsets": "44307"
+                    }
+                },
                 {
                     "source": "C:\\Users\\LG\\.gradle\\caches\\transforms-2\\files-2.1\\5fcf58f467c61301f7dd22175ddca6ba\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
                     "from": {
@@ -42,20 +59,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "45",
-                        "endOffsets": "58"
+                        "startLines": "7,9,10,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "293,379,419,57,105,153,201,247,336",
+                        "endColumns": "41,38,44,46,46,46,44,44,41",
+                        "endOffsets": "330,413,459,99,147,195,241,287,373"
                     },
                     "to": {
-                        "startLines": "694",
-                        "startColumns": "4",
-                        "startOffsets": "44266",
-                        "endColumns": "45",
-                        "endOffsets": "44307"
+                        "startLines": "108,164,167,198,199,200,211,212,215",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "6461,10362,10536,12538,12585,12632,13376,13421,13587",
+                        "endColumns": "41,38,44,46,46,46,44,44,41",
+                        "endOffsets": "6498,10396,10576,12580,12627,12674,13416,13461,13624"
                     }
                 },
                 {
@@ -152,26 +169,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\LG\\.gradle\\caches\\transforms-2\\files-2.1\\76a75c6502d93031e6f1d463ce4e8940\\recyclerview-1.1.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,111,170,218,274,349,425,497,563",
-                        "endLines": "2,3,4,5,6,7,8,9,38",
-                        "endColumns": "55,58,47,55,74,75,71,65,24",
-                        "endOffsets": "106,165,213,269,344,420,492,558,2084"
-                    },
-                    "to": {
-                        "startLines": "57,355,356,357,365,366,367,602,6406",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3297,22894,22953,23001,23668,23743,23819,38780,404419",
-                        "endLines": "57,355,356,357,365,366,367,602,6434",
-                        "endColumns": "55,58,47,55,74,75,71,65,24",
-                        "endOffsets": "3348,22948,22996,23052,23738,23814,23886,38841,405940"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -190,20 +188,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\LG\\.gradle\\caches\\transforms-2\\files-2.1\\76a75c6502d93031e6f1d463ce4e8940\\recyclerview-1.1.0\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "7,9,10,2,3,4,5,6,8",
+                        "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "293,379,419,57,105,153,201,247,336",
-                        "endColumns": "41,38,44,46,46,46,44,44,41",
-                        "endOffsets": "330,413,459,99,147,195,241,287,373"
+                        "startOffsets": "55,111,170,218,274,349,425,497,563",
+                        "endLines": "2,3,4,5,6,7,8,9,38",
+                        "endColumns": "55,58,47,55,74,75,71,65,24",
+                        "endOffsets": "106,165,213,269,344,420,492,558,2084"
                     },
                     "to": {
-                        "startLines": "108,164,167,198,199,200,211,212,215",
+                        "startLines": "57,355,356,357,365,366,367,602,6406",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "6461,10362,10536,12538,12585,12632,13376,13421,13587",
-                        "endColumns": "41,38,44,46,46,46,44,44,41",
-                        "endOffsets": "6498,10396,10576,12580,12627,12674,13416,13461,13624"
+                        "startOffsets": "3297,22894,22953,23001,23668,23743,23819,38780,404419",
+                        "endLines": "57,355,356,357,365,366,367,602,6434",
+                        "endColumns": "55,58,47,55,74,75,71,65,24",
+                        "endOffsets": "3348,22948,22996,23052,23738,23814,23886,38841,405940"
                     }
                 },
                 {

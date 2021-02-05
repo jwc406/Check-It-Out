@@ -1,134 +1,134 @@
 [
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottombar_background.png.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\drawable\\bottombar_background.png"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lecturebox.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\lecturebox.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\layout_detail_page_first.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\layout\\detail_page_first.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_teseticon2.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\drawable\\ic_teseticon2.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\layout_itemlecture.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\layout\\itemlecture.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\menu_toolbarmenu.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\menu\\toolbarmenu.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\layout_page_home.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\layout\\page_home.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dropshadow.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\dropshadow.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\drawable\\logo.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_testicon1.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\drawable\\ic_testicon1.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_intro.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\intro.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_teseticon2.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\ic_teseticon2.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\layout_block_lecture_short.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\layout\\block_lecture_short.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_testicon3.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\drawable\\ic_testicon3.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_addlecture.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\layout\\popup_addlecture.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calender.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\drawable\\ic_calender.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\logo.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\layout_check.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\layout\\check.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\layout_page_home.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\layout\\page_home.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_testicon1.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\ic_testicon1.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calender.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\ic_calender.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_addlecture.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\layout\\popup_addlecture.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alarm.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\alarm.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dropshadow.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\drawable\\dropshadow.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\layout_block_lecture_long.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\layout\\block_lecture_long.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_testicon3.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\ic_testicon3.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\layout_itemlecture.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\layout\\itemlecture.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\drawable\\border.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alarm.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\drawable\\alarm.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottombar_background.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\bottombar_background.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\layout_intro.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\layout\\intro.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\menu_toolbarmenu.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\menu\\toolbarmenu.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\border.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\layout_page_detail.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\layout\\page_detail.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\LG\\Desktop\\s\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
-        "source": "C:\\Users\\LG\\Desktop\\s\\app\\src\\main\\res\\layout\\toolbar.xml"
+        "merged": "C:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_todetail.xml.flat",
+        "source": "C:\\Users\\LG\\Desktop\\t\\app\\src\\main\\res\\drawable\\ic_todetail.xml"
     }
 ]

@@ -2,8 +2,6 @@ com/example/thecheck/PopupActivity_addLecture.java
  com.example.thecheck.PopupActivity_addLecture
  com.example.thecheck.PopupActivity_addLecture$1
  com.example.thecheck.PopupActivity_addLecture$DBHelper
-com/example/thecheck/DetailActivity.java
- com.example.thecheck.DetailActivity
 com/example/thecheck/LectureViewAdapter.java
  com.example.thecheck.LectureViewAdapter
  com.example.thecheck.LectureViewAdapter$1
@@ -19,3 +17,6 @@ com/example/thecheck/LectureItem.java
  com.example.thecheck.LectureItem
 com/example/thecheck/HomeActivity.java
  com.example.thecheck.HomeActivity
+com/example/thecheck/IntroActivity.java
+ com.example.thecheck.IntroActivity
+ com.example.thecheck.IntroActivity$1

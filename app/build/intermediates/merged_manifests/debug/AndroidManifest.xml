@@ -22,10 +22,10 @@
         <activity
             android:name="com.example.thecheck.PopupActivity_addLecture"
             android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
-        <activity android:name="com.example.thecheck.HomeActivity" >
+        <activity android:name="com.example.thecheck.HomeActivity" />
+        <activity android:name="com.example.thecheck.IntroActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="Theme.AppCompat.NoActionBar" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
