@@ -10,6 +10,7 @@ public class LectureItem {
     private String deadline;
     private String url;
     private String lectureTime;
+    private int curNum;
 
     public LectureItem() {
     }
@@ -20,6 +21,7 @@ public class LectureItem {
         this.lectureTime = lectureTime;
         this.numClass = numClass;
         this.url = url;
+        this.curNum = 0;
     }
 
     public int getlectureId() { return lectureId;}
@@ -40,5 +42,10 @@ public class LectureItem {
     public int getnumClass() { return numClass;}
     public void setnumClass(int lectureId){
         this.numClass = numClass;
+    }
+
+    private int getcurNum() {return curNum;}
+    public void pluscurNum(){
+        this.numClass += 1;
     }
 }
