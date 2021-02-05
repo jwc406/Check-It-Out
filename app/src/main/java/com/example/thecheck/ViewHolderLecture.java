@@ -10,6 +10,7 @@ import android.widget.CheckBox;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import android.widget.Button;
+import android.content.Intent;
 
 public class ViewHolderLecture extends  RecyclerView.ViewHolder {
 
@@ -56,7 +57,6 @@ public class ViewHolderLecture extends  RecyclerView.ViewHolder {
                 // classView가 실제로 사라지게하는 부분
                 ch_lecture.setVisibility(isExpanded ? View.VISIBLE : View.GONE);
                 bt_lecture.setVisibility(isExpanded ? View.VISIBLE : View.GONE);
-                //if(ch_lecture.isChecked()==false)
             }
         });
         // Animation start
@@ -66,4 +66,16 @@ public class ViewHolderLecture extends  RecyclerView.ViewHolder {
     public void setOnViewHolderItemClickListener(OnViewHolderItemClickListener onViewHolderItemClickListener) {
         this.onViewHolderItemClickListener = onViewHolderItemClickListener;
     }
+
+    /*
+    public void monClick(View v){
+        Intent intent;
+        switch(v.getId()) {
+            case R.id.bt_lecture:
+                intent = new Intent(this, 디테일페이지.class);
+                intent.putExtra("이름",tv_lecturename.getText());
+                startActivity(intent);
+        }
+    }
+    */
 }
