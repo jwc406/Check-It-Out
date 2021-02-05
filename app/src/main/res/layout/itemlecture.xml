@@ -32,24 +32,24 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_classView"
-        android:visibility="gone"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:visibility="visible" />
 
     <CheckBox
         android:id="@+id/ch_lecture"
-        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="80px"
+        android:text="오늘의 강의"
         android:textSize="30px"
-        android:text="오늘의 강의" />
+        android:visibility="visible" />
 
     <Button
+        android:id="@+id/bt_lecture"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:visibility="gone"
         android:layout_marginLeft="200dp"
         android:text="자세히"
-        android:id="@+id/bt_lecture"/>
+        android:visibility="visible" />
 
 </LinearLayout>
