@@ -6,15 +6,20 @@ public class LectureItem {
     private int lectureId;
     private int numClass;
     private String lectureName;
+    private String category;
+    private String deadline;
+    private String url;
     private String lectureTime;
 
     public LectureItem() {
     }
-    public LectureItem(int lectureId, String lectureName, String lectureTime, int numClass){
-        this.lectureId = lectureId;
+    public LectureItem(String lectureName, String category, String deadline, String lectureTime, int numClass, String url){
         this.lectureName = lectureName;
+        this.category = category;
+        this.deadline = deadline;
         this.lectureTime = lectureTime;
         this.numClass = numClass;
+        this.url = url;
     }
 
     public int getlectureId() { return lectureId;}
