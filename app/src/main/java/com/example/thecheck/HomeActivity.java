@@ -46,11 +46,6 @@ public class HomeActivity extends AppCompatActivity {
             case R.id.bt_home:
                 android.widget.Toast.makeText(context, "현재페이지", android.widget.Toast.LENGTH_SHORT).show();
                 break;
-                /*
-                case R.id.bt_todetail:
-                    intent = new Intent(getApplicationContext(), 디테일페이지.class);
-                    startActivity(intent);
-                 */
 
         }
     }
@@ -63,11 +58,10 @@ public class HomeActivity extends AppCompatActivity {
                 //데이터 받기
                 String newlecture = data.getStringExtra("lecture");
                 String newcategory = data.getStringExtra("category");
-                String newdeadline = data.getStringExtra("deadline");
                 String newtime = data.getStringExtra("time");
                 String numclass = data.getStringExtra("numclass");
                 String url = data.getStringExtra("url");
-                LectureItem item = new LectureItem(newlecture, newcategory, newdeadline, newtime, Integer.parseInt(numclass), url);
+                LectureItem item = new LectureItem(newlecture, newcategory, newtime, Integer.parseInt(numclass), url);
                 adapter.addItem(item);
                 adapter.notifyDataSetChanged();
             }
@@ -85,11 +79,11 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void getData(){
-        LectureItem data = new LectureItem("컴퓨터학개론", "학교", "2021-6-15","월요일 1교시~2교시",1, "http://naver.com");
+        LectureItem data = new LectureItem("컴퓨터학개론", "학교", "월요일 1교시~2교시",1, "http://naver.com");
         adapter.addItem(data);
-        data = new LectureItem("피트니스", "취미", "2021-2-28","월수금 20:00 ~ 21:00",1, "https://swhackathon.com/");
+        data = new LectureItem("피트니스", "취미", "월수금 20:00 ~ 21:00",1, "https://swhackathon.com/");
         adapter.addItem(data);
-        data = new LectureItem("토익인강", "공부", "2021-4-3","월화수목금 15:00 ~ 17:00",1, "https://google.co.kr");
+        data = new LectureItem("토익인강", "공부", "월화수목금 15:00 ~ 17:00",1, "https://google.co.kr");
         adapter.addItem(data);
     }
 

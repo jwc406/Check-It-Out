@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 
 public class LectureViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
+    public static Context context;
     // adapter에 들어갈 list 입니다.
     private ArrayList<LectureItem> listData = new ArrayList<>();
 
@@ -21,10 +22,12 @@ public class LectureViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     private int prePosition = -1;
 
 
+
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.itemlecture, parent, false);
+        context = parent.getContext();
         return new ViewHolderLecture(view);
     }
 
