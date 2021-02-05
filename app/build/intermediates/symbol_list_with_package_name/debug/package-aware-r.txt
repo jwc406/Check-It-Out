@@ -1363,6 +1363,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dropshadow
 drawable ic_calender
+drawable ic_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1372,6 +1373,8 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_teseticon2
 drawable ic_testicon1
 drawable ic_testicon3
+drawable ic_todetail
+drawable lecturebox
 drawable logo
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1583,10 +1586,9 @@ id italic
 id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
+id lastDate
 id lectureLinearLayout
 id lectureName
-id lectureName_l
-id lectureName_s
 id lectureTime
 id left
 id line1
@@ -1628,7 +1630,6 @@ id multiply
 id navigation_header_container
 id never
 id newCategory
-id newDeadline
 id newLecture
 id newNumcalss
 id newTime
@@ -1820,8 +1821,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout block_lecture_long
-layout block_lecture_short
 layout check
 layout custom_dialog
 layout design_bottom_navigation_item
