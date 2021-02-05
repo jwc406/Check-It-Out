@@ -14,7 +14,6 @@
         android:layout_marginTop="5dp"
         android:layout_marginLeft="275dp"
         android:background="@drawable/ic_todetail"
-        android:onClick="monClick"
         android:id="@+id/bt_lecture"/>
 
     <LinearLayout
@@ -56,6 +55,12 @@
         android:text="오늘의 강의"
         android:layout_marginBottom="17dp"/>
 
+
+    <TextView
+        android:id="@+id/lastDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
 
 
 </LinearLayout>

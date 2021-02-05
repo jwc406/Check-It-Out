@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 #Sat Feb 06 02:54:12 KST 2021
 base.0=C\:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+=======
+#Sat Feb 06 02:48:32 KST 2021
+base.0=G\:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+>>>>>>> 399ec62dd608ca5fa6342fb957337b1676b3a9dc
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+<<<<<<< HEAD
 base.1=C\:\\Users\\LG\\Desktop\\t\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+=======
+base.1=G\:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+>>>>>>> 399ec62dd608ca5fa6342fb957337b1676b3a9dc

@@ -6,6 +6,7 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
+<<<<<<< HEAD
 8-->C:\Users\LG\Desktop\t\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
 9-->C:\Users\LG\Desktop\t\app\src\main\AndroidManifest.xml
@@ -14,11 +15,22 @@
 11-->C:\Users\LG\Desktop\t\app\src\main\AndroidManifest.xml:5:5-20:19
 12        android:allowBackup="true"
 12-->C:\Users\LG\Desktop\t\app\src\main\AndroidManifest.xml:6:9-35
+=======
+8-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:5:5-22:19
+12        android:allowBackup="true"
+12-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:6:9-35
+>>>>>>> 399ec62dd608ca5fa6342fb957337b1676b3a9dc
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.0] C:\Users\LG\.gradle\caches\transforms-2\files-2.1\513efa8b232871d058fdda7e90972b20\core-1.3.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.3.1] C:\Users\LEE\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
+<<<<<<< HEAD
 16-->C:\Users\LG\Desktop\t\app\src\main\AndroidManifest.xml:7:9-43
 17        android:label="@string/app_name"
 17-->C:\Users\LG\Desktop\t\app\src\main\AndroidManifest.xml:8:9-41
@@ -55,3 +67,47 @@
 33    </application>
 34
 35</manifest>
+=======
+16-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.TheCheck" >
+21-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:11:9-46
+22        <activity android:name="com.example.thecheck.DetailActivity" />
+22-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:12:9-51
+22-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:12:19-49
+23        <activity android:name="com.example.thecheck.CalendarActivity" />
+23-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:13:9-53
+23-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:13:19-51
+24        <activity
+24-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:9-122
+25            android:name="com.example.thecheck.PopupActivity_addLecture"
+25-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:19-59
+26            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
+26-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:60-120
+27        <activity android:name="com.example.thecheck.HomeActivity" >
+27-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:9-21:20
+27-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:19-47
+28            <intent-filter>
+28-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:16:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:17:17-68
+29-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:17:25-66
+30                <action android:name="Theme.AppCompat.NoActionBar" />
+30-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:18:17-70
+30-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:18:25-67
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:19:17-77
+32-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:19:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
+>>>>>>> 399ec62dd608ca5fa6342fb957337b1676b3a9dc

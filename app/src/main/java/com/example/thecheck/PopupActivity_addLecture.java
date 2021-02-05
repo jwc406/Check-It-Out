@@ -26,6 +26,9 @@ public class PopupActivity_addLecture extends Activity {
     final static String dbName = "class.db";
     final static int dbVersion = 1;
 
+    String pattern = "yyyy-MM-dd";
+    SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,7 +39,6 @@ public class PopupActivity_addLecture extends Activity {
         //UI 객체생성
         tv_newlecture = (EditText)findViewById(R.id.newLecture);
         tv_category = (EditText)findViewById(R.id.newCategory);
-        tv_deadline = (EditText)findViewById(R.id.newDeadline);
         tv_newtime = (EditText)findViewById(R.id.newTime);
         tv_newnumclass = (EditText)findViewById(R.id.newNumcalss);
         tv_url = (EditText)findViewById(R.id.newUrl);
@@ -51,15 +53,13 @@ public class PopupActivity_addLecture extends Activity {
                 SQLiteDatabase db;
                 String sql;
                 long now = System.currentTimeMillis();
-                Date date = new Date(now);
                 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-                String getTime = sdf.format(date);
+                String date = sdf.format(new Date(now));
 
                 switch (view.getId()) {
                     case R.id.bt_addlecture:
                         String newlecture = tv_newlecture.getText().toString();
                         String newcategory = tv_category.getText().toString();
-                        String newdeadline = tv_deadline.getText().toString();
                         String newtime = tv_newtime.getText().toString();
                         String numclass = tv_newnumclass.getText().toString();
                         String url = tv_url.getText().toString();
@@ -68,14 +68,13 @@ public class PopupActivity_addLecture extends Activity {
                         db = dbHelper.getWritableDatabase();
                         sql = String.format("INSERT INTO class VALUES" +
                                         " (NULL, '%s', '%s', '%s', '%s', '%s', '%s', '%d');",
-                                newlecture, newcategory, newdeadline, newtime, numclass, url, 0);
+                                newlecture, newcategory, newtime, numclass, url, date, 0);
                         db.execSQL(sql);
 
 
                         Intent intent = new Intent();
                         intent.putExtra("lecture", newlecture);
                         intent.putExtra("category", newcategory);
-                        intent.putExtra("deadline", newdeadline);
                         intent.putExtra("time", newtime);
                         intent.putExtra("numclass", numclass);
                         intent.putExtra("url", url);
@@ -99,7 +98,7 @@ public class PopupActivity_addLecture extends Activity {
     }
 
     // DBHelper 클래스 (taeyang2.lee)
-    static class DBHelper extends SQLiteOpenHelper {
+    public static class DBHelper extends SQLiteOpenHelper {
 
         // DB 파일 생성성 (taeyang2.lee)
         public DBHelper(Context context, String name, SQLiteDatabase.CursorFactory factory,
@@ -112,7 +111,7 @@ public class PopupActivity_addLecture extends Activity {
         public void onCreate(SQLiteDatabase db){
             db.execSQL("CREATE TABLE IF NOT EXISTS class " +
                     "(_id INTEGER PRIMARY KEY AUTOINCREMENT, lectName TEXT, lectType TEXT, " +
-                    "dueDate INTEGER, lecStartDate TEXT, lessons INTEGER, url VARCHAR(20), curNum INTEGER);");
+                    "lecStartDate TEXT, lessons INTEGER, url VARCHAR(20), lastDate TEXT, curnum INTEGER);");
         }
 
         // DB 업데이트 시 호출 (taeyang2.lee)

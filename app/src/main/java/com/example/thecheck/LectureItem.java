@@ -7,21 +7,25 @@ public class LectureItem {
     private int numClass;
     private String lectureName;
     private String category;
-    private String deadline;
     private String url;
     private String lectureTime;
     private int curNum;
+    private String lastDate;
+
+    long now = System.currentTimeMillis();
+    java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("yyyy-MM-dd");
+    String date = sdf.format(new java.util.Date(now));
 
     public LectureItem() {
     }
-    public LectureItem(String lectureName, String category, String deadline, String lectureTime, int numClass, String url){
+    public LectureItem(String lectureName, String category, String lectureTime, int numClass, String url){
         this.lectureName = lectureName;
         this.category = category;
-        this.deadline = deadline;
         this.lectureTime = lectureTime;
         this.numClass = numClass;
         this.url = url;
         this.curNum = 0;
+        this.lastDate = date;
     }
 
     public int getlectureId() { return lectureId;}
@@ -47,5 +51,10 @@ public class LectureItem {
     private int getcurNum() {return curNum;}
     public void pluscurNum(){
         this.numClass += 1;
+    }
+
+    public String getLastDate() { return lastDate;}
+    public void setLastDate(String date){
+        this.lectureTime = date;
     }
 }
