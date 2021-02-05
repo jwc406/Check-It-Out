@@ -23,13 +23,6 @@
             android:paddingLeft="20dp"
             android:paddingRight="20dp">
 
-            <ImageView
-                android:id="@+id/imageView"
-                app:srcCompat="@android:drawable/ic_menu_gallery"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                tools:srcCompat="@tools:sample/avatars" />
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -45,32 +38,36 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:text="강의명"
-                        android:gravity="center" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <TextView
                         android:id="@+id/textView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:text="수강기간"
-                        android:gravity="center" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <TextView
                         android:id="@+id/textView6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:text="카테고리"
-                        android:gravity="center" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:text="바로가기"
-                        android:gravity="center" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -83,32 +80,36 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="컨셉디자인"
-                        android:gravity="center|right" />
+                        android:gravity="center|right"
+                        android:textSize="20dp"
+                        android:text="컨셉디자인" />
 
                     <TextView
                         android:id="@+id/textView8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="2021.02.03 ~ 2021.06.28"
-                        android:gravity="center|right" />
+                        android:gravity="center|right"
+                        android:textSize="20dp"
+                        android:text="2021.02.03 ~ 2021.06.28" />
 
                     <TextView
                         android:id="@+id/textView9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="대학 강의"
-                        android:gravity="center|right" />
+                        android:gravity="center|right"
+                        android:textSize="20dp"
+                        android:text="대학 강의" />
 
                     <TextView
                         android:id="@+id/textView10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="https://swhackathon.com"
-                        android:gravity="center|right" />
+                        android:gravity="center|right"
+                        android:textSize="20dp"
+                        android:text="https://swhackathon.com" />
                 </LinearLayout>
             </LinearLayout>
 

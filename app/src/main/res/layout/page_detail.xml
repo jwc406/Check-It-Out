@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity = "center">
@@ -23,20 +24,15 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
-                app:srcCompat="@android:drawable/ic_menu_edit" />
+                android:layout_margin="5dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@android:drawable/ic_menu_edit"
+                tools:srcCompat="@android:drawable/ic_menu_edit" />
 
             <include
                 layout="@layout/detail_page_first"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="match_parent"
-                android:layout_height="54dp"
-                android:gravity="center"
-                android:text="총 28강 중 3강 완강"
-                android:textSize="20dp" />
 
             <include
                 layout="@layout/check"
@@ -51,14 +47,44 @@
                 android:background="@color/main_color"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView13"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="54dp"
-                    android:gravity="center"
-                    android:text="MEMO"
-                    android:textColor="#FFFFFF"
-                    android:textSize="20dp" />
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.9"
+                        android:gravity="center"
+                        android:text="        MEMO"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <ImageButton
+                        android:id="@+id/btnMemo"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="right"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.1"
+                        android:background="#00FFFFFF"
+                        app:srcCompat="@android:drawable/ic_menu_edit"
+                        tools:srcCompat="@android:drawable/ic_menu_edit" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editMemo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:enabled="true"
+                    android:gravity="top"
+                    android:lines="8"
+                    android:text="Sample EditText" />
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
