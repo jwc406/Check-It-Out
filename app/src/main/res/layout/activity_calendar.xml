@@ -5,14 +5,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#ffffff"
     android:orientation="vertical">
-    s
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
     <com.prolificinteractive.materialcalendarview.MaterialCalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"/>
+        android:layout_height="600dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/bottombar_background">
+
+        <Button
+            android:id="@+id/bt_home"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:onClick="onClick"
+            android:text="home" />
+        <Button
+            android:id="@+id/bt_calender"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:onClick="onClick"
+            android:text="calendar"/>
+    </LinearLayout>
 
 </LinearLayout>

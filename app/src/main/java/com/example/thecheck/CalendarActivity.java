@@ -1,11 +1,14 @@
 package com.example.thecheck;
 
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.ColorFilter;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.CalendarView;
 
 import androidx.annotation.NonNull;
@@ -29,7 +32,7 @@ import java.util.List;
 import static com.prolificinteractive.materialcalendarview.CalendarDay.*;
 
 public class CalendarActivity extends AppCompatActivity {
-
+    Context context = this;
     MaterialCalendarView materialCardView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,5 +56,17 @@ public class CalendarActivity extends AppCompatActivity {
 
 
     }
-
+    public void onClick(View v){
+        Intent intent;
+        switch(v.getId()) {
+            case R.id.bt_home:
+                intent = new Intent(this, HomeActivity.class);
+                startActivityForResult(intent, 1);
+                break;
+            case R.id.bt_calender:
+                android.widget.Toast.makeText(context, "현재페이지", android.widget.Toast.LENGTH_SHORT).show();
+                finish();
+                break;
+        }
+    }
 }
