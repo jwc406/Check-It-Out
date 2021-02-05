@@ -14,6 +14,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginLeft="275dp"
         android:background="@drawable/ic_todetail"
+        android:onClick="monClick"
         android:id="@+id/bt_lecture"/>
 
     <LinearLayout
