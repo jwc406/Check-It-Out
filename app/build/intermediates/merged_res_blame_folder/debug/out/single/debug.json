@@ -4,6 +4,22 @@
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\layout\\page_home.xml"
     },
     {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_teseticon2.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\ic_teseticon2.xml"
+    },
+    {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -28,8 +44,16 @@
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\layout_block_lecture_long.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\layout\\block_lecture_long.xml"
+    },
+    {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\layout_block_lecture_short.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\layout\\block_lecture_short.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -48,12 +72,12 @@
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_testicon3.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\ic_testicon3.xml"
     },
     {
-        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_addlecture.xml.flat",
@@ -68,14 +92,6 @@
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\alarm.xml"
     },
     {
-        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
@@ -86,5 +102,9 @@
     {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_testicon1.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\ic_testicon1.xml"
     }
 ]

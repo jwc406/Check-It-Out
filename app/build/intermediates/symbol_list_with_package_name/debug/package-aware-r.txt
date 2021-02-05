@@ -1366,6 +1366,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_teseticon2
+drawable ic_testicon1
+drawable ic_testicon3
 drawable logo
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1545,6 +1548,8 @@ id labeled
 id largeLabel
 id lectureLinearLayout
 id lectureName
+id lectureName_l
+id lectureName_s
 id lectureTime
 id left
 id line1
@@ -1769,6 +1774,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout block_lecture_long
+layout block_lecture_short
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
