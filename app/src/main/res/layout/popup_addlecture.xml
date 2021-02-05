@@ -31,6 +31,53 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#000"
+            android:backgroundTint="@color/main_color"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="카테고리 :"
+            android:gravity="right"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/newCategory"
+            android:hint="학교/취미..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:backgroundTint="@color/main_color"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="마감일 :"
+            android:gravity="right"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/newDeadline"
+            android:hint="yyyy-mm-dd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:backgroundTint="@color/main_color"
             />
     </LinearLayout>
 
@@ -53,6 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#000"
+            android:backgroundTint="@color/main_color"
             />
     </LinearLayout>
 
@@ -75,11 +123,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#000"
+            android:backgroundTint="@color/main_color"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="링크 :"
+            android:gravity="right"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/newUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:backgroundTint="@color/main_color"
             />
     </LinearLayout>
 
     <Button
-        android:text="강의추가"
+        android:text="추가"
         android:id="@+id/bt_addlecture"
         android:textSize="15dp"
         android:gravity="center"

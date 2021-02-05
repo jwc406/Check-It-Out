@@ -7,4 +7,14 @@
     android:elevation="4dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+        android:id="@+id/toolbar_title"
+        android:textSize="20sp"
+        />
+
 </androidx.appcompat.widget.Toolbar>

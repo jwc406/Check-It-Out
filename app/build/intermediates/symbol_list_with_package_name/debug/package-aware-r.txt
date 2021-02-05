@@ -1342,6 +1342,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable alarm
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -1365,9 +1366,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable ic_teseticon2
-drawable ic_testicon1
-drawable ic_testicon3
+drawable logo
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1473,6 +1472,7 @@ id blocking
 id bottom
 id bt_add
 id bt_addlecture
+id bt_alarm
 id bt_lecture
 id buttonPanel
 id cancel_button
@@ -1545,8 +1545,6 @@ id labeled
 id largeLabel
 id lectureLinearLayout
 id lectureName
-id lectureName_l
-id lectureName_s
 id lectureTime
 id left
 id line1
@@ -1587,9 +1585,12 @@ id mtrl_picker_title_text
 id multiply
 id navigation_header_container
 id never
+id newCategory
+id newDeadline
 id newLecture
 id newNumcalss
 id newTime
+id newUrl
 id noScroll
 id none
 id normal
@@ -1688,6 +1689,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toolbar
+id toolbar_title
 id top
 id topPanel
 id touch_outside
@@ -1767,8 +1769,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout block_lecture_long
-layout block_lecture_short
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1841,6 +1841,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout toolbar
+menu toolbarmenu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
