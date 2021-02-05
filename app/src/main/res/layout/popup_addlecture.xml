@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context=".PopupActivity_addLecture">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:text="강의명 :"
+            android:gravity="right"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            />
+
+        <EditText
+            android:id="@+id/newLecture"
+            android:hint="강의명을 입력하세요."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="강의시간 :"
+            android:gravity="right"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/newTime"
+            android:hint="시간을 입력하세요"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="차수 :"
+            android:gravity="right"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/newNumcalss"
+            android:hint="차수를 입력하세요"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+    <Button
+        android:text="강의추가"
+        android:id="@+id/bt_addlecture"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="@color/main_color"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+</LinearLayout>

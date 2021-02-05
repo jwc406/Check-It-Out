@@ -41,6 +41,7 @@ public class ViewHolderLecture extends  RecyclerView.ViewHolder {
 
     public void onBind(LectureItem data,int position, SparseBooleanArray selectedItems){
         tv_lecturename.setText(data.getlectureName());
+        tv_lecturetime.setText(data.getlectureTime());
         changeVisibility(selectedItems.get(position));
     }
 
