@@ -65,7 +65,7 @@ public class HomeActivity extends AppCompatActivity {
     private void getData(){
         LectureItem data = new LectureItem(1, "컴퓨터학개론", "9:00-10:15", 2);
         adapter.addItem(data);
-        data = new LectureItem(1, "컴퓨터구조", "13:00-14:00", 2);
+        data = new LectureItem(1, "피트니스", "19:00-50:00", 3);
         adapter.addItem(data);
         data = new LectureItem(1, "알고리즘", "10:30-11:45", 2);
         adapter.addItem(data);

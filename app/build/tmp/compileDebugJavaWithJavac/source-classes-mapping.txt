@@ -1,0 +1,18 @@
+com/example/thecheck/PopupActivity_addLecture.java
+ com.example.thecheck.PopupActivity_addLecture
+ com.example.thecheck.PopupActivity_addLecture$1
+com/example/thecheck/LectureViewAdapter.java
+ com.example.thecheck.LectureViewAdapter
+ com.example.thecheck.LectureViewAdapter$1
+com/example/thecheck/ViewHolderLecture.java
+ com.example.thecheck.ViewHolderLecture
+ com.example.thecheck.ViewHolderLecture$1
+ com.example.thecheck.ViewHolderLecture$2
+com/example/thecheck/OnViewHolderItemClickListener.java
+ com.example.thecheck.OnViewHolderItemClickListener
+com/example/thecheck/BuildConfig.java
+ com.example.thecheck.BuildConfig
+com/example/thecheck/LectureItem.java
+ com.example.thecheck.LectureItem
+com/example/thecheck/HomeActivity.java
+ com.example.thecheck.HomeActivity
