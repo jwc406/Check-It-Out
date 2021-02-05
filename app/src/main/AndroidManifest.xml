@@ -12,6 +12,7 @@
         <activity android:name=".PopupActivity_addLecture" android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"/>
         <activity android:name=".HomeActivity">
             <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
                 <action android:name="Theme.AppCompat.NoActionBar" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
