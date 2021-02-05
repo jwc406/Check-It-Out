@@ -59,7 +59,7 @@ public class DetailActivity extends AppCompatActivity{
         if (cursor.getCount() > 0) {
             while (cursor.moveToNext()){
                 lectName2.setText(cursor.getString(1));
-                lectTerm2.setText(date+"~"+cursor.getString(6));
+                lectTerm2.setText(cursor.getString(3)+"~"+date);
                 lectType2.setText(cursor.getString(2));
                 lectUrl2.setText(cursor.getString(5));
 
