@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import android.widget.Button;
 import android.database.sqlite.SQLiteDatabase;
+import android.content.Intent;
 
 
 public class ViewHolderLecture extends  RecyclerView.ViewHolder {
@@ -52,6 +53,16 @@ public class ViewHolderLecture extends  RecyclerView.ViewHolder {
             @Override
             public void onClick(View v) {
                 onViewHolderItemClickListener.onViewHolderItemClick();
+            }
+        });
+
+        bt_lecture.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent;
+                intent = new Intent(LectureViewAdapter.context, DetailActivity.class);
+                intent.putExtra("이름",tv_lecturename.getText());
+                LectureViewAdapter.context.startActivity(intent);
             }
         });
 
@@ -98,16 +109,4 @@ public class ViewHolderLecture extends  RecyclerView.ViewHolder {
     public void setOnViewHolderItemClickListener(OnViewHolderItemClickListener onViewHolderItemClickListener) {
         this.onViewHolderItemClickListener = onViewHolderItemClickListener;
     }
-
-    /*
-    public void monClick(View v){
-        Intent intent;
-        switch(v.getId()) {
-            case R.id.bt_lecture:
-                intent = new Intent(this, 디테일페이지.class);
-                intent.putExtra("이름",tv_lecturename.getText());
-                startActivity(intent);
-        }
-    }
-    */
 }

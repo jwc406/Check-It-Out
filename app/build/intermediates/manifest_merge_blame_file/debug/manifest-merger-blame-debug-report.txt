@@ -11,7 +11,7 @@
 9-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:5:5-21:19
+11-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:5:5-22:19
 12        android:allowBackup="true"
 12-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,32 +29,35 @@
 20        android:testOnly="true"
 21        android:theme="@style/Theme.TheCheck" >
 21-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:11:9-46
-22        <activity android:name="com.example.thecheck.CalendarActivity" />
-22-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:12:9-53
-22-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:12:19-51
-23        <activity
-23-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:13:9-122
-24            android:name="com.example.thecheck.PopupActivity_addLecture"
-24-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:13:19-59
-25            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
-25-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:13:60-120
-26        <activity android:name="com.example.thecheck.HomeActivity" >
-26-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:9-20:20
-26-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:19-47
-27            <intent-filter>
-27-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:13-19:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:16:17-68
-28-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:16:25-66
-29                <action android:name="Theme.AppCompat.NoActionBar" />
-29-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:17:17-70
-29-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:17:25-67
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:18:17-77
-31-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:18:27-74
-32            </intent-filter>
-33        </activity>
-34    </application>
-35
-36</manifest>
+22        <activity android:name="com.example.thecheck.DetailActivity" />
+22-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:12:9-51
+22-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:12:19-49
+23        <activity android:name="com.example.thecheck.CalendarActivity" />
+23-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:13:9-53
+23-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:13:19-51
+24        <activity
+24-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:9-122
+25            android:name="com.example.thecheck.PopupActivity_addLecture"
+25-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:19-59
+26            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
+26-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:60-120
+27        <activity android:name="com.example.thecheck.HomeActivity" >
+27-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:9-21:20
+27-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:19-47
+28            <intent-filter>
+28-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:16:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:17:17-68
+29-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:17:25-66
+30                <action android:name="Theme.AppCompat.NoActionBar" />
+30-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:18:17-70
+30-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:18:25-67
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:19:17-77
+32-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:19:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
