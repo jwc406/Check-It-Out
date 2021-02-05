@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.view.View;
 import android.content.Intent;
 import android.view.Menu;
+import android.content.Context;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -17,6 +18,7 @@ public class HomeActivity extends AppCompatActivity {
     public static LectureViewAdapter adapter;
     public static RecyclerView mRecyclerView;
     Button bt_add;
+    Context context = this;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,8 +38,21 @@ public class HomeActivity extends AppCompatActivity {
 
     public void onClick(View v){
         Intent intent;
-        intent = new Intent(this, PopupActivity_addLecture.class);
-        startActivityForResult(intent, 1);
+        switch(v.getId()) {
+            case R.id.bt_add:
+                intent = new Intent(this, PopupActivity_addLecture.class);
+                startActivityForResult(intent, 1);
+                break;
+            case R.id.bt_home:
+                android.widget.Toast.makeText(context, "현재페이지", android.widget.Toast.LENGTH_SHORT).show();
+                break;
+                /*
+                case R.id.bt_todetail:
+                    intent = new Intent(getApplicationContext(), 디테일페이지.class);
+                    startActivity(intent);
+                 */
+
+        }
     }
 
     @Override
@@ -54,6 +69,7 @@ public class HomeActivity extends AppCompatActivity {
                 String url = data.getStringExtra("url");
                 LectureItem item = new LectureItem(newlecture, newcategory, newdeadline, newtime, Integer.parseInt(numclass), url);
                 adapter.addItem(item);
+                adapter.notifyDataSetChanged();
             }
         }
     }

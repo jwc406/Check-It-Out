@@ -3,10 +3,18 @@
     android:id="@+id/lectureLinearLayout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginHorizontal="150px"
-    android:layout_marginVertical="50px"
+    android:layout_marginVertical="20dp"
     android:orientation="vertical"
     android:background="@drawable/dropshadow">
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="275dp"
+        android:background="@drawable/ic_todetail"
+        android:id="@+id/bt_lecture"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -36,20 +44,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+
     <CheckBox
         android:id="@+id/ch_lecture"
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="80px"
+        android:layout_marginLeft="20dp"
         android:textSize="30px"
-        android:text="오늘의 강의" />
+        android:text="오늘의 강의"
+        android:layout_marginBottom="17dp"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="35dp"
-        android:visibility="gone"
-        android:layout_marginLeft="200dp"
-        android:text="자세히"
-        android:id="@+id/bt_lecture"/>
+
 
 </LinearLayout>
