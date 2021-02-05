@@ -16,12 +16,13 @@
             android:id="@+id/toolbar" />
 
         <Button
+            android:id="@+id/bt_add"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="추가"
             android:textColor="@color/main_color"
             android:background="@color/white"
-            android:id="@+id/bt_add"/>
+            android:onClick="onClick" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_lectureView"
