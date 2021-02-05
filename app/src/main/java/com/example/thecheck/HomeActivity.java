@@ -1,9 +1,11 @@
 package com.example.thecheck;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import androidx.recyclerview.widget.LinearLayoutManager;
+
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -14,6 +16,12 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.page_home);
+
+        //use toolbar
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+
         init();
         getData();
     }
