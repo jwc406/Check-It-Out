@@ -71,22 +71,16 @@ public class HomeActivity extends AppCompatActivity {
     private void getData(){
         LectureItem data = new LectureItem("컴퓨터학개론", "학교", "2021-6-15","월요일 1교시~2교시",1, "http://naver.com");
         adapter.addItem(data);
-<<<<<<< Updated upstream
-        data = new LectureItem(1, "컴퓨터구조", "13:00-14:00", 2);
-=======
         data = new LectureItem("피트니스", "취미", "2021-2-28","월수금 20:00 ~ 21:00",1, "https://swhackathon.com/");
->>>>>>> Stashed changes
         adapter.addItem(data);
         data = new LectureItem("토익인강", "공부", "2021-4-3","월화수목금 15:00 ~ 17:00",1, "https://google.co.kr");
         adapter.addItem(data);
     }
 
-<<<<<<< Updated upstream
-=======
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.toolbarmenu,menu);
         return super.onCreateOptionsMenu(menu);
     }
->>>>>>> Stashed changes
 }
