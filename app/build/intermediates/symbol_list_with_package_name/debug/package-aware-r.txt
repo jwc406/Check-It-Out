@@ -1345,6 +1345,7 @@ drawable abc_vector_test
 drawable alarm
 drawable avd_hide_password
 drawable avd_show_password
+drawable bottombar_background
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1360,6 +1361,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dropshadow
+drawable ic_calender
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1473,6 +1475,8 @@ id bottom
 id bt_add
 id bt_addlecture
 id bt_alarm
+id bt_calender
+id bt_home
 id bt_lecture
 id buttonPanel
 id cancel_button

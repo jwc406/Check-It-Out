@@ -4,8 +4,24 @@
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\layout\\page_home.xml"
     },
     {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calender.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\ic_calender.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -40,6 +56,10 @@
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\layout\\itemlecture.xml"
     },
     {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottombar_background.png.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\bottombar_background.png"
+    },
+    {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\menu_toolbarmenu.xml.flat",
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\menu\\toolbarmenu.xml"
     },
@@ -52,10 +72,6 @@
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_addlecture.xml.flat",
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\layout\\popup_addlecture.xml"
     },
@@ -66,14 +82,6 @@
     {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alarm.xml.flat",
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\alarm.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
