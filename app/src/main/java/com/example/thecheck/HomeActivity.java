@@ -46,7 +46,11 @@ public class HomeActivity extends AppCompatActivity {
             case R.id.bt_home:
                 android.widget.Toast.makeText(context, "현재페이지", android.widget.Toast.LENGTH_SHORT).show();
                 break;
-
+            case R.id.bt_calender:
+                intent = new Intent(this, CalendarActivity.class);
+                startActivityForResult(intent, 1);
+                finish();
+                break;
         }
     }
 

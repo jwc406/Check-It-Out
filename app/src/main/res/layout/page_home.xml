@@ -56,6 +56,7 @@
                 android:layout_width="240dp"
                 android:layout_height="match_parent"
                 android:background="#00ff0000"
+                android:onClick="onClick"
                 android:text="calendar"/>
         </LinearLayout>
     </LinearLayout>
