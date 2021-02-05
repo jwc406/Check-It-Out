@@ -56,6 +56,7 @@ public class ViewHolderLecture extends  RecyclerView.ViewHolder {
                 // classView가 실제로 사라지게하는 부분
                 ch_lecture.setVisibility(isExpanded ? View.VISIBLE : View.GONE);
                 bt_lecture.setVisibility(isExpanded ? View.VISIBLE : View.GONE);
+                //if(ch_lecture.isChecked()==false)
             }
         });
         // Animation start

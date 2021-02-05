@@ -67,8 +67,8 @@ public class PopupActivity_addLecture extends Activity {
                         // 데이터 삽입 (taeyang2.lee)
                         db = dbHelper.getWritableDatabase();
                         sql = String.format("INSERT INTO class VALUES" +
-                                        " (NULL, '%s', '%s', '%s', '%s', '%s', '%s');",
-                                newlecture, newcategory, newdeadline, newtime, numclass, url);
+                                        " (NULL, '%s', '%s', '%s', '%s', '%s', '%s', '%d');",
+                                newlecture, newcategory, newdeadline, newtime, numclass, url, 0);
                         db.execSQL(sql);
 
 
@@ -112,7 +112,7 @@ public class PopupActivity_addLecture extends Activity {
         public void onCreate(SQLiteDatabase db){
             db.execSQL("CREATE TABLE IF NOT EXISTS class " +
                     "(_id INTEGER PRIMARY KEY AUTOINCREMENT, lectName TEXT, lectType TEXT, " +
-                    "dueDate INTEGER, lecStartDate TEXT, lessons INTEGER, url VARCHAR(20));");
+                    "dueDate INTEGER, lecStartDate TEXT, lessons INTEGER, url VARCHAR(20), curNum INTEGER);");
         }
 
         // DB 업데이트 시 호출 (taeyang2.lee)
