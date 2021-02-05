@@ -10,8 +10,6 @@ import android.widget.Button;
 import android.view.View;
 import android.content.Intent;
 import android.view.Menu;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -19,12 +17,6 @@ public class HomeActivity extends AppCompatActivity {
     public static LectureViewAdapter adapter;
     public static RecyclerView mRecyclerView;
     Button bt_add;
-    com.example.thecheck.PopupActivity_addLecture.DBHelper dbHelper;
-    SQLiteDatabase db;
-    String sql;
-
-    final static String dbName = "class.db";
-    final static int dbVersion = 1;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,8 +29,6 @@ public class HomeActivity extends AppCompatActivity {
 
         //강의추가버튼
         bt_add = (Button)findViewById(R.id.bt_add);
-        dbHelper = new com.example.thecheck.PopupActivity_addLecture.DBHelper(this, dbName, null, dbVersion);
-        db = dbHelper.getWritableDatabase();
 
         init();
         getData();
@@ -64,11 +54,6 @@ public class HomeActivity extends AppCompatActivity {
                 String url = data.getStringExtra("url");
                 LectureItem item = new LectureItem(newlecture, newcategory, newdeadline, newtime, Integer.parseInt(numclass), url);
                 adapter.addItem(item);
-                //db 저장
-                sql = String.format("INSERT INTO class VALUES" +
-                                " (NULL, '%s', '%s', '%s', '%s', '%s', '%s');",
-                        newlecture, newcategory, newdeadline, newtime, numclass, url);
-                db.execSQL(sql);
             }
         }
     }
@@ -86,21 +71,10 @@ public class HomeActivity extends AppCompatActivity {
     private void getData(){
         LectureItem data = new LectureItem("컴퓨터학개론", "학교", "2021-6-15","월요일 1교시~2교시",1, "http://naver.com");
         adapter.addItem(data);
-        //db 저장
-        sql = String.format("INSERT INTO class VALUES" +
-                        " (NULL, '%s', '%s', '%s', '%s', '%s', '%s');",
-                "컴퓨터학개론", "학교", "2021-6-15","월요일 1교시~2교시",1, "http://naver.com");
-        db.execSQL(sql);
-
         data = new LectureItem("피트니스", "취미", "2021-2-28","월수금 20:00 ~ 21:00",1, "https://swhackathon.com/");
         adapter.addItem(data);
-        sql = String.format("피트니스", "취미", "2021-2-28","월수금 20:00 ~ 21:00",1, "https://swhackathon.com/");
-        db.execSQL(sql);
-
         data = new LectureItem("토익인강", "공부", "2021-4-3","월화수목금 15:00 ~ 17:00",1, "https://google.co.kr");
         adapter.addItem(data);
-        sql = String.format("토익인강", "공부", "2021-4-3","월화수목금 15:00 ~ 17:00",1, "https://google.co.kr");
-        db.execSQL(sql);
     }
 
 

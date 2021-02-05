@@ -24,6 +24,7 @@
             android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
         <activity android:name="com.example.thecheck.HomeActivity" >
             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <action android:name="Theme.AppCompat.NoActionBar" />
 
                 <category android:name="android.intent.category.LAUNCHER" />

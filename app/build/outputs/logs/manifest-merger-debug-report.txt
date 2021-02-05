@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-22:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\LEE\.gradle\caches\transforms-2\files-2.1\7e5b6cf970b6ee458e94f0de4554e685\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\LEE\.gradle\caches\transforms-2\files-2.1\44b21666f861b2b454523071d69d07d7\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\LEE\.gradle\caches\transforms-2\files-2.1\3b91b187821fc6e4f6300506297b769e\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -31,25 +31,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\LEE\.gradle\c
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\LEE\.gradle\caches\transforms-2\files-2.1\1435e0b5216c3fd72a2d6579c29d3ee1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\LEE\.gradle\caches\transforms-2\files-2.1\035487676af6db782633ffbdc1d98b21\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\LEE\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml
 		INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml
-		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-22:12
 		INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml
-		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:1-22:12
 		INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:5:5-20:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\LEE\.gradle\caches\transforms-2\files-2.1\7e5b6cf970b6ee458e94f0de4554e685\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\LEE\.gradle\caches\transforms-2\files-2.1\7e5b6cf970b6ee458e94f0de4554e685\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.core:core:1.3.0] C:\Users\LEE\.gradle\caches\transforms-2\files-2.1\513efa8b232871d058fdda7e90972b20\core-1.3.0\AndroidManifest.xml:24:5-89
@@ -77,19 +77,23 @@ ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\A
 	android:name
 		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:12:19-59
 activity#com.example.thecheck.HomeActivity
-ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:13:9-18:20
+ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
 		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:13:19-47
-intent-filter#action:name:Theme.AppCompat.NoActionBar+category:name:android.intent.category.LAUNCHER
-ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:13-17:29
+intent-filter#action:name:Theme.AppCompat.NoActionBar+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:17-68
+	android:name
+		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:25-66
 action#Theme.AppCompat.NoActionBar
-ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:17-70
+ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:16:17-70
 	android:name
-		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:25-67
+		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:16:25-67
 category#android.intent.category.LAUNCHER
-ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml
