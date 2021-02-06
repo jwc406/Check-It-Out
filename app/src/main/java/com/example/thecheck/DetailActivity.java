@@ -31,7 +31,6 @@ public class DetailActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.page_detail);
 
-        lectImg = (ImageView)findViewById(R.id.imageView);
         lectName1 = (TextView)findViewById(R.id.d_lectureName);
         lectTerm1 = (TextView)findViewById(R.id.textView5);
         lectType1 = (TextView)findViewById(R.id.textView6);

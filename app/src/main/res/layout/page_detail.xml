@@ -23,6 +23,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
+                android:background="#00FFFFFF"
                 app:srcCompat="@android:drawable/ic_menu_edit" />
 
             <include
@@ -60,6 +61,14 @@
                     android:text="MEMO"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:layout_gravity="left"
+                    android:layout_padding="20dp"
+                    />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
