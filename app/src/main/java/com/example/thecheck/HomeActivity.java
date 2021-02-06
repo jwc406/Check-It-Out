@@ -63,7 +63,6 @@ public class HomeActivity extends AppCompatActivity {
                 intent = new Intent(this, CalendarActivity.class);
                 startActivity(intent);
                 overridePendingTransition(0, 0);
-                finish();
                 break;
         }
     }

@@ -11,7 +11,7 @@
 9-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:5:5-22:19
+11-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:5:5-23:19
 12        android:allowBackup="true"
 12-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -41,23 +41,26 @@
 25-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:19-59
 26            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
 26-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:14:60-120
-27        <activity android:name="com.example.thecheck.HomeActivity" >
-27-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:9-21:20
+27        <activity android:name="com.example.thecheck.HomeActivity" />
+27-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:9-49
 27-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:15:19-47
-28            <intent-filter>
-28-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:16:13-20:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:17:17-68
-29-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:17:25-66
-30                <action android:name="Theme.AppCompat.NoActionBar" />
-30-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:18:17-70
-30-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:18:25-67
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:19:17-77
-32-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:19:27-74
-33            </intent-filter>
-34        </activity>
-35    </application>
-36
-37</manifest>
+28        <activity android:name="com.example.thecheck.IntroActivity" >
+28-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:16:9-22:20
+28-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:16:19-48
+29            <intent-filter>
+29-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:17:13-21:25
+30                <action android:name="android.intent.action.MAIN" />
+30-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:18:13-64
+30-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:18:21-62
+31                <action android:name="Theme.AppCompat.NoActionBar" />
+31-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:19:13-66
+31-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:19:21-63
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:20:13-73
+33-->G:\AndroidStudioProjects\Check-It-Out_git\Check-It-Out\app\src\main\AndroidManifest.xml:20:23-70
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

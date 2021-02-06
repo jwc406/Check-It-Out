@@ -1900,7 +1900,6 @@ id ignore
 id ignoreRequest
 id image
 id imageButton
-id imageView
 id info
 id invisible
 id italic
