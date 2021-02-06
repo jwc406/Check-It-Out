@@ -65,21 +65,27 @@ public class ViewHolderLecture extends  RecyclerView.ViewHolder {
                 LectureViewAdapter.context.startActivity(intent);
             }
         });
+        ch_lecture.setOnClickListener(new CheckBox.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(ch_lecture.isChecked()==true) {
+                    if (tv_lastDate.getText().toString() != date) {
+                        tv_lastDate.setText(date);
 
-        if(ch_lecture.isChecked()==true) {
-            if (tv_lastDate.getText().toString() != date) {
-                tv_lastDate.setText(date);
+                        //update class set numclass = numclass + 1 where name = tv_lecturename.getText();
+                        sql = String.format("UPDATE class SET curnum = curnum + 1 where lectName='" + tv_lecturename.getText() + "' ");
+                        db.execSQL(sql);
 
-                //update class set numclass = numclass + 1 where name = tv_lecturename.getText();
-                sql = String.format("UPDATE LIST SET numclass = numclass + 1 where lectName='" + tv_lecturename.getText() + "' ");
-                db.execSQL(sql);
-
-                //update class set lastDate = date where name = tv_lecturename.getText();
-                sql = String.format("UPDATE LIST SET lastDate = '" + date + "' where lectName='" + tv_lecturename.getText() + "' ");
-                db.execSQL(sql);
-                //변수 date엔 오늘의 날짜가 'yyyy-mm-dd'의 string으로 저장되어 있음
+                        //update class set lastDate = date where name = tv_lecturename.getText();
+                        sql = String.format("UPDATE class SET lastDate = '" + date + "' where lectName='" + tv_lecturename.getText() + "' ");
+                        db.execSQL(sql);
+                        //변수 date엔 오늘의 날짜가 'yyyy-mm-dd'의 string으로 저장되어 있음
+                    }
+                }
             }
-        }
+
+        });
+
     }
 
     public void onBind(LectureItem data,int position, SparseBooleanArray selectedItems){

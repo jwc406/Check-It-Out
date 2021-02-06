@@ -17,7 +17,7 @@ import java.util.List;
 public class DetailActivity extends AppCompatActivity{
 
     ImageView lectImg;
-    TextView lectName1, lectTerm1, lectType1, lectUrl1, lectName2, lectTerm2, lectType2, lectUrl2;
+    TextView lectName1, lectTerm1, lectType1, lectUrl1, lectName2, lectTerm2, lectType2, lectUrl2, lectN, lectM;
 
     DBHelper dbHelper;
 
@@ -41,6 +41,8 @@ public class DetailActivity extends AppCompatActivity{
         lectType2 = (TextView)findViewById(R.id.textView9);
         lectUrl2 = (TextView)findViewById(R.id.textView10);
 
+        lectN = (TextView)findViewById(com.example.thecheck.R.id.textView11);
+
         dbHelper = new DBHelper(this, dbName, null, dbVersion);
 
         SQLiteDatabase db;
@@ -60,6 +62,7 @@ public class DetailActivity extends AppCompatActivity{
             while (cursor.moveToNext()){
                 lectName2.setText(cursor.getString(1));
                 lectTerm2.setText(cursor.getString(3)+"~"+date);
+                lectN.setText("현재" +cursor.getString(4)+" 중 "+cursor.getString(7)+"강 완강");
                 lectType2.setText(cursor.getString(2));
                 lectUrl2.setText(cursor.getString(5));
 

@@ -1,5 +1,6 @@
 com/example/thecheck/DetailActivity.java
  com.example.thecheck.DetailActivity
+ com.example.thecheck.DetailActivity$DBHelper
 com/example/thecheck/SaturdayDecorator.java
  com.example.thecheck.SaturdayDecorator
 com/example/thecheck/EventDecorator.java
@@ -12,6 +13,7 @@ com/example/thecheck/ViewHolderLecture.java
  com.example.thecheck.ViewHolderLecture$1
  com.example.thecheck.ViewHolderLecture$2
  com.example.thecheck.ViewHolderLecture$3
+ com.example.thecheck.ViewHolderLecture$4
 com/example/thecheck/BuildConfig.java
  com.example.thecheck.BuildConfig
 com/example/thecheck/OneDayDecorator.java
@@ -20,6 +22,7 @@ com/example/thecheck/MyselectorDecorator.java
  com.example.thecheck.MyselectorDecorator
 com/example/thecheck/HomeActivity.java
  com.example.thecheck.HomeActivity
+ com.example.thecheck.HomeActivity$DBHelper
 com/example/thecheck/SundayDecorator.java
  com.example.thecheck.SundayDecorator
 com/example/thecheck/PopupActivity_addLecture.java
