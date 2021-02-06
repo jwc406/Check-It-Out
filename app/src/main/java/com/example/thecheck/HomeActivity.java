@@ -61,7 +61,8 @@ public class HomeActivity extends AppCompatActivity {
                 break;
             case R.id.bt_calender:
                 intent = new Intent(this, CalendarActivity.class);
-                startActivityForResult(intent, 1);
+                startActivity(intent);
+                overridePendingTransition(0, 0);
                 finish();
                 break;
         }

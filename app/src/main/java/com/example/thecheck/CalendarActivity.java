@@ -61,7 +61,9 @@ public class CalendarActivity extends AppCompatActivity {
         switch(v.getId()) {
             case R.id.bt_home:
                 intent = new Intent(this, HomeActivity.class);
-                startActivityForResult(intent, 1);
+                startActivity(intent);
+                overridePendingTransition(0, 0);
+                finish();
                 break;
             case R.id.bt_calender:
                 android.widget.Toast.makeText(context, "현재페이지", android.widget.Toast.LENGTH_SHORT).show();

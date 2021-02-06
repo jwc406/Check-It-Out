@@ -12,6 +12,10 @@
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\ic_todetail.xml"
     },
     {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\layout_intro.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\layout\\intro.xml"
+    },
+    {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -106,6 +110,10 @@
     {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_addlecture.xml.flat",
         "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\layout\\popup_addlecture.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\drawable_intro.png.flat",
+        "source": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\src\\main\\res\\drawable\\intro.png"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\Check-It-Out_git\\Check-It-Out\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",

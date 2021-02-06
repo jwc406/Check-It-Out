@@ -1625,6 +1625,7 @@ drawable ic_teseticon2
 drawable ic_testicon1
 drawable ic_testicon3
 drawable ic_todetail
+drawable intro
 drawable lecturebox
 drawable logo
 drawable material_ic_calendar_black_24dp
@@ -1862,6 +1863,7 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id ex1
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2225,6 +2227,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout detail_page_first
+layout intro
 layout itemlecture
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
