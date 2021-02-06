@@ -35,6 +35,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="강의명"
+                        android:textSize="15dp"
                         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <TextView
@@ -44,6 +45,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="수강기간"
+                        android:textSize="15dp"
                         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <TextView
@@ -53,6 +55,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="카테고리"
+                        android:textSize="15dp"
                         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <TextView
@@ -62,6 +65,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="바로가기"
+                        android:textSize="15dp"
                         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
                 </LinearLayout>
 
@@ -76,7 +80,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center|right"
-                        android:textSize="20dp"
+                        android:textSize="15dp"
                         android:text="컨셉디자인" />
 
                     <TextView
@@ -85,7 +89,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center|right"
-                        android:textSize="20dp"
+                        android:textSize="15dp"
                         android:text="2021.02.03 ~ 2021.06.28" />
 
                     <TextView
@@ -94,7 +98,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center|right"
-                        android:textSize="20dp"
+                        android:textSize="15dp"
                         android:text="대학 강의" />
 
                     <TextView
@@ -103,7 +107,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center|right"
-                        android:textSize="20dp"
+                        android:textSize="15dp"
                         android:text="https://swhackathon.com" />
                 </LinearLayout>
             </LinearLayout>
